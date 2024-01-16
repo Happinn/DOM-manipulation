@@ -39,7 +39,7 @@ lists[9].innerText = 'Replace "you" with "we": ' + nursery.replace('you', 'we')
 lists[10].innerText = 'Replace all "o" with "u": ' + nursery.replaceAll('o', 'u')
 
 //sclice
-// const twinkle = nursery.slice(0,7)
+// const twinkle = nursery.slice(0,6)
 const twinkle = nursery.slice(0,nursery.indexOf('e')+1)
 lists[11].textContent = twinkle
 
@@ -62,4 +62,4 @@ lists[16].textContent = 'if it includes "kar": ' + nursery.includes('kar')
 lists[17].textContent = nursery.split(' ')
 
 //concat
-lists[18].textContent = 'The nursery ryhmre starts with: '.concat(twinkle, 'ayodele', 'univelcity')
+lists[18].textContent = 'The nursery ryhme starts with: '.concat(twinkle, 'ayodele', 'univelcity')
