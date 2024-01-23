@@ -41,7 +41,7 @@ classOne[0].textContent = 'this is a class paragraph'
 
 const para = document.querySelectorAll('p')
 para[0].style.fontSize = '3rem'
-para[4].style.background = 'linear-gradient(red, blue)'
+para[4].style.background = 'linear-gradient(45deg, red, blue)'
 
 
 const decleration = document.getElementsByTagName('div')
@@ -50,7 +50,7 @@ decleration[0].style.backgroundColor = 'gray'
 
 
 const par = document.querySelector('#par')
-par.innerHTML = "I'm a <br> .<strong>frontend</strong> developer. He said <q> I am  a developer"
+par.innerHTML = "I'm a <br> .<strong>frontend</strong> developer. He said <q> I am  a developer </q>" 
 // alert(`I'm a \n <strong>frontend</strong> developer.
 //  \t He said <q> I am  a \n developer</q>`)
 
